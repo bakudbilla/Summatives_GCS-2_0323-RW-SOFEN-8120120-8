@@ -1,0 +1,1 @@
+ application that will take user input and build the Bachelor of Software Engineering cohort list of students. The application will take in the following information (student email, age, and student ID). Your shell script â€œmain.shâ€

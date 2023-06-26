@@ -16,4 +16,6 @@ sshpass -p "$password" ssh "$username@$host" "mkdir $remote_directory/$backup_di
 
 # Copy the local directory to the remote backup directory
 sshpass -p "$password" scp -r negpod_0323-RW-SOFEN-8120120-8-q1 "$username@$host:$remote_directory/$backup_directory"
+
 echo "Backup completed successfully. Backup directory: $backup_directory"
+
